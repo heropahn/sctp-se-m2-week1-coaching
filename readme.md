@@ -8,6 +8,8 @@
 1. What are Components in React?
 1. What are Props?
 
+<details>
+<summary>1. Basic JavaScript</summary>
 ## 1. Basic JavaScript
 
 1. Which of the following is **NOT** primitive data type of JavaScript?
@@ -72,7 +74,10 @@ const multiplied = [1,2,3,4,5].map((value, index) => {
     return value * 10;
 })
 ```
+</details>
 
+<details>
+<summary> 2. React Project Structure</summary>
 ## 2. React Project Structure
 
 This illustration is an output of `npx create-react-app coaching-app` command:
@@ -89,6 +94,10 @@ Here are some key knowledge you should know as a start:
 |public|Stores static files that are not processed by bundler/webpack.|
 |build|Artifact produced after running command: `npm run build`|
 
+</details>
+
+<details>
+<summary> 3. What is JSX?</summary>
 ## 3. What is JSX?
 
 JSX (JavaScript XML) is a syntax extension for JavaScript, most commonly used with React to describe what the UI should look like. JSX allows you to write HTML elements in JavaScript.
@@ -117,6 +126,10 @@ function Component(){
 | **Dynamic Content** | Dynamic content requires explicit DOM manipulation or integration with JavaScript frameworks/libraries. | Facilitates the creation of dynamic content and interactive UIs by seamlessly integrating with JavaScript logic. |
 | **Component-Based Architecture** | Not inherently designed for a component-based architecture. Requires integration with frameworks (e.g., Angular, Vue) for component-driven development. | Naturally supports a component-based architecture, making it ideal for developing reusable UI components in applications. |
 
+</details>
+
+<details>
+<summary> 4. What are Components in React?</summary>
 ## 4. What are Components in React?
 
 In React, components are the building blocks of the user interface (UI). A component represents a part of the UI that is reusable and can manage its own state or be stateless. React encourages the development of UIs as a composition of small, isolated, and reusable components that manage their own state. These components can be composed together to build complex UIs.
@@ -141,6 +154,10 @@ function Component(){
 | **Unmounting** | Cleanup operations before the component is removed from the UI. Such as cleaning up active connections to preserve backend resources.| 
 | **Updating** | Operations that need to run in response to specific state or prop changes. Such as showing error messages when a form submission fails.| 
 
+</details>
+
+<details>
+<summary> 5. What are Props?</summary>
 ## 5. What are Props?
 
 Props are data passed from parent component to child component.
@@ -189,5 +206,6 @@ export default ParentComponent;
 - The ParentComponent defines a message variable and passes it to the ChildComponent as a prop named message.
 - The ChildComponent receives the props object, which contains all the props passed from the parent. It then accesses the message prop and renders it inside a <p> tag.
 - This pattern demonstrates how data flows from parent to child components through props, allowing child components to render data passed down from their parents.
+</details>
 
 END
