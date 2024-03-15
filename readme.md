@@ -10,7 +10,7 @@
 
 ## 1. Basic JavaScript
 
-1. Which of the following is not primitive data type of JavaScript?
+1. Which of the following is **NOT** primitive data type of JavaScript?
 
 ```
 A: string
