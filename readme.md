@@ -155,7 +155,7 @@ function Component(){
 | **Unmounting** | Cleanup operations before the component is removed from the UI. Such as cleaning up active connections to preserve backend resources.| 
 | **Updating** | Operations that need to run in response to specific state or prop changes. Such as showing error messages when a form submission fails.| 
 |-|-|
-| Mobile have 2 more |
+|-|Mobile have 2 more |
 | **Frontside** | ... |
 | **Backside** | ... |
 
