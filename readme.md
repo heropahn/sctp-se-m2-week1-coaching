@@ -18,25 +18,25 @@
 A: string
 B: int
 C: object
-D: boolean
+>>>> D: boolean
 ```
 
 2. Which of the following JavaScript feature(s) are used for performing conditional flow?
 
 ```
 A: for
-B: if
-C: switch
+>>>> B: if
+>>>> C: switch
 D: while
 ```
 
 3. Which of the following JavaScript feature(s) are used for performing looping?
 
 ```
-A: for
+>>>> A: for
 B: if
 C: switch
-D: while
+>>>> D: while
 ```
 
 4. Refer to the different way of writing functions in JavaScript:
@@ -49,6 +49,7 @@ function declarativeFn () {}
 const expressionFn = function () {}
 
 // Arrow Function:
+// Shortening the function pointer: 
 const arrowFn = () => {}
 ```
 
